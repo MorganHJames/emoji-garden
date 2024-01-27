@@ -5,11 +5,14 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Multiplayer/Scenes/EmojiGarden.unity
+  - enabled: 0
+    path: Assets/Scenes/LocationScene.unity
     guid: a791f8775780d469a83e7917aedecc9d
+  - enabled: 1
+    path: Assets/Samples/Lightship Maps SDK/0.4.0/Third-Person Camera Sample/OrbitCamera.unity
+    guid: 6a755ebfca758491a981eafc58a9422b
   m_configObjects:
-    Niantic.Lightship.AR.LightshipSettings: {fileID: 11400000, guid: 60eb2790b0df443459002383f6b6e661, type: 2}
+    Niantic.Lightship.AR.LightshipSettings: {fileID: 11400000, guid: 9fa7764c9f2062440a7307b899b8a9c4, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: f8b1de28df9414040ab8e8225258c146, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: ede2d62ded6034ce4aeb76ad52220d86, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 80584c76067974dbc988fa9abbc014a1, type: 2}
